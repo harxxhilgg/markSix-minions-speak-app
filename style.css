@@ -53,9 +53,8 @@ textarea {
     background-color: var(--textarea-bg-color);
     display: block;
     margin: auto;
-    margin-top: 3rem;
-    height: 200px;
-    width: 1000px;
+    height: 250px;
+    width: 60%;
     font-size: 25px;
     padding: 1rem 0.5rem;
     caret-color: var(--caret-color);
@@ -72,7 +71,7 @@ textarea {
 button {
     cursor: pointer;
     display: block;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
     padding: 10px 25px;
     outline: none;
     border: none;
@@ -90,8 +89,8 @@ button:hover {
     margin: auto;
     background: var(--textarea-bg-color);
     color: var(--textarea-text-color);
-    height: 200px; 
-    width: 1000px;
+    height: 250px; 
+    width: 60%;
     border: none;
     outline: none;
     border-radius: 12px;
@@ -111,9 +110,28 @@ button:hover {
     border: none;
     outline: none;
     border-radius: 25px 25px 0 0;
+    text-align: center;
 }
 
-footer::selection {
+footer p::selection {
     color: var(--header-bg-color);
     background: var(--bg-color);
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 1rem;
+    color: #000; 
+    font-weight: bolder;
+    font-size: 23px;
 }

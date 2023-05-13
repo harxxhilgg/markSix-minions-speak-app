@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>banana talk</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>banana talk webapp</h1>
+      <h1>banana talk webapp</h1>
     </header>
 
-    <textarea id="inputBox" placeholder="put your message here to translate!"></textarea>
+    <textarea
+      id="inputBox"
+      placeholder="put your message here to translate!"
+    ></textarea>
 
-    <button>Translate</button>
+    <button id="inputBtn">Translate</button>
 
-    <div class="outputBox">
-        << translation will be here! >>
-    </div>
+    <div class="outputBox">translation will be here!</div>
 
     <footer class="footer">
-        I created a web application that utilizes HTML, CSS, and JavaScript to translate text into the fun and quirky Minion language. Users can enter their desired text and receive a translated version, adding a touch of whimsy to their messages. The app is user-friendly and accessible, allowing users to enjoy the Minion language. 
+      <p>web application that utilizes HTML, CSS, and JavaScript to translate
+        text into the fun and quirky Minion language.</p>
+      <ul>
+        <li>
+          <a href="https://github.com/harxxhilgg">github</a>
+        </li>
+        <li>
+          <a href="https://funtranslations.com/api/minion">api</a>
+        </li>
+        <li>
+          <a href="https://linktr.ee/harxxhil.gg">socials</a>
+        </li>
+      </ul>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
